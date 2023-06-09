@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>TradeXpress-Login</title>
+    <link rel="icon" href="\img\TradeXpress_logo.jpg" type="image/x-icon">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="login-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gs9baDl411NQApFmC26EWAOH8WgZ15MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <form class="container" action="signin.php" method="POST">
+        <div class="box">
+            <div class="row">
+                <div class="col-sm-5 col-xs-1 box1">
+                    <div class="inline-text">
+                        <h1>Login</h1>
+                        <p>Get Access to your orders,<br />
+                            Wishlist and<br />
+                            Recommendations
+                        </p>
+                    </div>
+                </div>
+                <div class="box-2">
+                    <div class="user-id user-data">
+                        <input type="email" name="email" id="email" required=""/>
+                        <label>Enter email/Mobile Number</label>
+                    </div>
+                    <div class="user-id user-data">
+                        <input type="password" name="passwd" id="passwd" required=""/>
+                        <label>Enter Password</label>
+                    </div>
+                    <div class="user-id">
+                        <p>By continuing, you agree to Flipkarts Term of use and Privacy Policy.</p>
+                    </div>
+                    <span><a href="#">Forgot?</a></span>
+                    <div class="user-id button">
+                        <button type="submit" name="login" id="login" value="Login">LOGIN</button>>
+                    </div>
+                    <div class="user-id">
+                        <p>OR</p>
+                    </div>
+                    <div class="user-id button">
+                        <input type="reset" name="" id="" value="Request OTP" />
+                    </div>
+                    <div class="user-id">
+                        <p class="footer"><a href="#">New to Flipkart? Create an account<a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<script>
+// function sendData() {
+//   var email = document.getElementById("email").value;
+//   var password = document.getElementById("password").value;
+//   var xhr = new XMLHttpRequest();
+//   xhr.open("POST", "register.php", true);
+//   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+//   xhr.onreadystatechange = function() {
+//     if (xhr.readyState === 4 && xhr.status === 200) {
+//       alert(xhr.responseText);
+//     }
+//   };
+//   xhr.send("email=" + email + "&password=" + password);
+// }
+</script>
+</html>
